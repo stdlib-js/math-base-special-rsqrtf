@@ -42,7 +42,6 @@
   "dependencies": {
     "@stdlib/math-base-napi-unary": "^0.0.x",
     "@stdlib/math-base-special-sqrt": "^0.0.x",
-    "@stdlib/math-base-special-sqrtf": "^0.0.x",
     "@stdlib/number-float64-base-to-float32": "^0.0.x",
     "@stdlib/utils-library-manifest": "^0.0.x"
   },
