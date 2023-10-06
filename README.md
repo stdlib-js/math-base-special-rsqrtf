@@ -56,14 +56,30 @@ The reciprocal of the principal [square root][square-root] is defined as
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-rsqrtf
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import rsqrtf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rsqrtf@esm/index.mjs';
+var rsqrtf = require( '@stdlib/math-base-special-rsqrtf' );
 ```
 
 #### rsqrtf( x )
@@ -104,15 +120,10 @@ var v = rsqrtf( -4.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import rsqrtf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rsqrtf@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var rsqrtf = require( '@stdlib/math-base-special-rsqrtf' );
 
 var x;
 var i;
@@ -121,10 +132,6 @@ for ( i = 0; i < 100; i++ ) {
     x = round( randu() * 100.0 );
     console.log( 'rsqrt(%d) = %d', x, rsqrtf( x ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -133,7 +140,88 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- C interface documentation. -->
 
+* * *
 
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/math/base/special/rsqrtf.h"
+```
+
+#### stdlib_base_rsqrtf( x )
+
+Computes the reciprocal (inverse) [square root][square-root] of a single-precision floating-point number.
+
+```c
+float y = stdlib_base_rsqrtf( 4.0 );
+// returns 0.5
+```
+
+The function accepts the following arguments:
+
+-   **x**: `[in] float` input value.
+
+```c
+float stdlib_base_rsqrtf( const float x );
+```
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+### Examples
+
+```c
+#include "stdlib/math/base/special/rsqrtf.h"
+#include <stdio.h>
+
+int main( void ) {
+    const float x[] = { 3.14f, 9.0f, 0.0f, 0.0f/0.0f };
+
+    float y;
+    int i;
+    for ( i = 0; i < 4; i++ ) {
+        y = stdlib_base_rsqrtf( x[ i ] );
+        printf( "rsqrt(%f) = %f\n", x[ i ], y );
+    }
+}
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -159,7 +247,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -223,9 +311,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/rsqrt]: https://github.com/stdlib-js/math-base-special-rsqrt/tree/esm
+[@stdlib/math/base/special/rsqrt]: https://github.com/stdlib-js/math-base-special-rsqrt
 
-[@stdlib/math/base/special/sqrtf]: https://github.com/stdlib-js/math-base-special-sqrtf/tree/esm
+[@stdlib/math/base/special/sqrtf]: https://github.com/stdlib-js/math-base-special-sqrtf
 
 <!-- </related-links> -->
 
