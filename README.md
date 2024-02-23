@@ -63,7 +63,7 @@ The reciprocal of the principal [square root][square-root] is defined as
 ## Usage
 
 ```javascript
-import rsqrtf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rsqrtf@esm/index.mjs';
+import rsqrtf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rsqrtf@v0.2.1-esm/index.mjs';
 ```
 
 #### rsqrtf( x )
@@ -112,7 +112,7 @@ var v = rsqrtf( -4.0 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import rsqrtf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rsqrtf@esm/index.mjs';
+import rsqrtf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rsqrtf@v0.2.1-esm/index.mjs';
 
 var x;
 var i;
