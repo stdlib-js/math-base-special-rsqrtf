@@ -51,6 +51,7 @@
     "@stdlib/constants-float32-ninf": "^0.2.2",
     "@stdlib/constants-float32-pinf": "^0.2.2",
     "@stdlib/math-base-assert-is-nanf": "^0.2.2",
+    "@stdlib/math-base-assert-is-positive-zero": "^0.2.2",
     "@stdlib/math-base-special-abs": "^0.2.2",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
     "@stdlib/random-array-uniform": "^0.2.1",
