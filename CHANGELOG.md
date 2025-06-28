@@ -10,6 +10,7 @@
 
 ### Bug Fixes
 
+-   [`4523a49`](https://github.com/stdlib-js/stdlib/commit/4523a495d0320dc757e324e042767417d8acab26) - use correct include header
 -   [`d4be935`](https://github.com/stdlib-js/stdlib/commit/d4be935c9fc5d8e8b32f0ede434079cc62213c9e) - load correct float32 sqrt dependency
 
 </section>
@@ -32,6 +33,7 @@
 
 <details>
 
+-   [`4523a49`](https://github.com/stdlib-js/stdlib/commit/4523a495d0320dc757e324e042767417d8acab26) - **fix:** use correct include header _(by Philipp Burckhardt)_
 -   [`d4be935`](https://github.com/stdlib-js/stdlib/commit/d4be935c9fc5d8e8b32f0ede434079cc62213c9e) - **fix:** load correct float32 sqrt dependency _(by Philipp Burckhardt)_
 -   [`580a43f`](https://github.com/stdlib-js/stdlib/commit/580a43fb5dcd86b4e2647cc0b9bdae271e889301) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
