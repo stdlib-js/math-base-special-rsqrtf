@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-29)
+## Unreleased (2025-08-22)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,7 @@
 
 <details>
 
+-   [`44010b3`](https://github.com/stdlib-js/stdlib/commit/44010b3e8509ab22c32750fa125a1155f5fd8995) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
 -   [`5691bc8`](https://github.com/stdlib-js/stdlib/commit/5691bc85544b4ad4ddc1e46ef59d0e11df983471) - **revert:** fix: load correct float32 sqrt dependency _(by Athan Reines)_
 -   [`4523a49`](https://github.com/stdlib-js/stdlib/commit/4523a495d0320dc757e324e042767417d8acab26) - **fix:** use correct include header _(by Philipp Burckhardt)_
 -   [`d4be935`](https://github.com/stdlib-js/stdlib/commit/d4be935c9fc5d8e8b32f0ede434079cc62213c9e) - **fix:** load correct float32 sqrt dependency _(by Philipp Burckhardt)_
